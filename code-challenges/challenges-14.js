@@ -100,7 +100,29 @@ const replaceWords = (str) => {
 // ------------------------
 
 const arrToStr = (arr) => {
-    // write your code here
+    let strN="";
+   let I=0;
+    arr.forEach(element => {
+        I++;
+        if(strN==""){
+          strN=element;   
+        }
+        else if(I==6) {
+            strN=strN+", "+element;
+        }
+        
+        else{
+          strN=strN+" "+element;
+        }
+        if(arr.length==5&&I==5){
+            strN=strN+",";
+
+        }
+    
+        
+    });
+
+    return strN;
 }
 
 // 5) ---------------------
