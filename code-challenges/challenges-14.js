@@ -138,7 +138,76 @@ const arrToStr = (arr) => {
 // ------------------------
 
 const letterCounter = (str) => {
-    // write your code here
+   let array= str.split("");
+   let prev="";
+   let NewARR=[];
+   let rt="";
+   let count=0;
+//   array.forEach(element => {
+
+//    if(element==prev){
+// count++;
+
+//    }
+//    else  if( element!=prev&& element!=" "){
+//     count++;
+//     NewARR.push(element+count);
+//     count=0;
+//    }
+
+//    else{
+//     NewARR.push(element+count);
+//     count=0;
+
+//    }
+//    prev=element;
+   
+      
+//   });
+
+
+
+
+
+  for (let index = 0; index < array.length; index++) {
+    let element=array[index];
+   if(element==prev&&array[index+1]==element){
+    count++;
+    
+       }
+       else  if( element!=prev&&array[index+1]==element&&element!=" "){
+        count++;
+        
+       
+       }
+       else  if( element==prev&&array[index+1]!=element&&element!=" "){
+        count++;
+        console.log("hi");
+        NewARR.push(element+count);
+        count=0;
+       
+       }
+       else  if( element!=prev&&array[index+1]!=element&&element!=" "){
+        count++;
+        NewARR.push(element+count);
+        count=0;
+       }
+       else{
+        NewARR.push(element);
+       }
+
+    
+      
+       prev=element;
+       console.log(prev+count);
+      
+  }
+
+  NewARR.forEach(element => {
+    rt=rt+element;
+    
+});
+  return rt;
 }
 
 
