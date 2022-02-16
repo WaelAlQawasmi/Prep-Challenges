@@ -1,0 +1,11 @@
+{
+    "cells": [
+        {
+            "language": "typescript",
+            "source": [
+                "{\n    \"cells\": [\n        {\n            \"language\": \"markdown\",\n            \"source\": [\n                \"## Hacker Rank\\n\\nFor Thursdays you will be solving some selected challenges on HackerRank, please create an account if you don't have then\\nFollow the links below:\\nread them carefully and solve them then copy-paste your solution below in Code Block\"\n            ],\n            \"outputs\": []\n        },\n        {\n            \"language\": \"markdown\",\n            \"source\": [\n                \"### **Required**:\"\n            ],\n            \"outputs\": []\n        },\n        {\n            \"language\": \"markdown\",\n            \"source\": [\n                \"#####  [Append And Delete](https://www.hackerrank.com/challenges/append-and-delete/problem?isFullScreen=true)\\n\\nSolution:\"\n            ],\n            \"outputs\": []\n        },\n        {\n            \"language\": \"javascript\",\n            \"source\": [\n                \"\"\n            ],\n            \"outputs\": []\n        },\n        {\n            \"language\": \"markdown\",\n            \"source\": [\n                \"### **Optional**:\"\n            ],\n            \"outputs\": []\n        },\n        {\n            \"language\": \"markdown\",\n            \"source\": [\n                \"#####  [Encryption](https://www.hackerrank.com/challenges/encryption/problem?isFullScreen=true)\\n\\nSolution:\"\n            ],\n            \"outputs\": []\n        },\n        {\n            \"language\": \"javascript\",\n            \"source\": [\n                \"\"\n            ],\n            \"outputs\": []\n        },\n        {\n            \"language\": \"markdown\",\n            \"source\": [\n                \"#####  [The Time In Words](https://www.hackerrank.com/challenges/the-time-in-words/problem?isFullScreen=true)\\n\\nSolution:\"\n            ],\n            \"outputs\": []\n        },\n        {\n            \"language\": \"javascript\",\n            \"source\": [\n                \"\"\n            ],\n            \"outputs\": []\n        }\n    ]\n}\n"
+            ],
+            "outputs": []
+        }
+    ]
+}
